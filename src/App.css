@@ -1,38 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar{
   display: flex;
-  flex-direction: column;
+  background-color:#800020;
+  list-style: none;
+  padding: 30px 30px 30px 550px;
+  max-width: 100%;
+  font-size: large;
+  font-weight: bold;
+  color:black;
+  justify-content: space-between;
+  font-family: "Quicksand", sans serif;
+
+
+}
+.navbar a{
+  text-decoration: none;
+  color:white;
+  
+
+}
+.Headshot {
+  
+  width: 200px;
+  height : 200px;
+  justify-content: center;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid white;
+  box-shadow:  0 0 15px rgba(0, 0, 0, 0.2);
+
+}
+
+.container {
+  height:80vh;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 3rem;
+  
+
 }
 
-.App-link {
-  color: #61dafb;
+.intro-container {
+  padding: 30px;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.introtext {
+  font-family: "Quicksand", sans-serif;
+  font-size: large;
+  white-space: pre-wrap;
+  overflow: hidden;
+  line-height: 1.6;
+}
+
+.cursor {
+  display: inline-block;
+  width: 2px;
+  height: 1em;
+  background-color: #4a148c;
+  margin-left: 2px;
+  animation: blink 0.75s step-end infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
   }
 }
+
