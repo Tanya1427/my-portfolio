@@ -6,7 +6,7 @@
 
 .navbar{
   display: flex;
-  background-color:#800020;
+  background-color: #B9A0D3;
   list-style: none;
   padding: 30px 30px 30px 550px;
   max-width: 100%;
@@ -41,6 +41,7 @@
   align-items: center;
   justify-content: center;
   padding: 3rem;
+  background-color: white;
   
 
 }
@@ -53,24 +54,47 @@
 
 .introtext {
   font-family: "Quicksand", sans-serif;
+  font-weight: 800;
   font-size: large;
   white-space: pre-wrap;
   overflow: hidden;
   line-height: 1.6;
+  color: black;
 }
 
-.cursor {
-  display: inline-block;
-  width: 2px;
-  height: 1em;
-  background-color: #4a148c;
-  margin-left: 2px;
-  animation: blink 0.75s step-end infinite;
-}
-
-@keyframes blink {
-  50% {
-    opacity: 0;
+.container2 {
+    display: flex;
+    justify-content: center;    /* Horizontally center the box */
+    align-items: center;        /* Vertically center the box */
+    height: 25vh;              /* Full height of the screen */
+    margin: 0;                 /* Remove default margin */
   }
+
+.skillbuttons { 
+    width: 800px;                /* Set the width of the box */
+    height: 150px;                /* Set the width of the box */
+    justify-content: center;    /* Horizontally center the box */
+    align-items: center;  /* Padding inside the box */ /* Border color and thickness */
+    border-radius: 13px;        /* Rounded corners for the box */
+    background-color: #E6F7FF;  /* Light blue background color */
+    text-align: center;         /* Center the text inside the box */
+  }
+.skillsheading {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 800;
+  color: #B9A0D3;
 }
+.skillbuttons p {
+  background-color: #D1E6FF;  /* Background color for each item */
+  padding: 5px 15px;           /* Padding inside each item */
+  margin: 5px;                 /* Spacing between items */
+  border-radius: 5px;          /* Rounded corners for each item */
+  display: inline-block;
+
+  
+}
+
+
+  
+  
 
